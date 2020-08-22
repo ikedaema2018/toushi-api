@@ -8,7 +8,10 @@ Visual Studio Code
 TBC
 
 ## デプロイ方法
-TBC
+### buy-notification
+cd buy-notification
+GOOS=linux GOARCH=amd64 go build -o main main.go
+zip main.zip main #これをlambdaにデプロイ
 
 ## 機能
 設定した有価証券が値下がりしたら通知を送る
