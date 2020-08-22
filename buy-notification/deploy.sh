@@ -1,3 +1,4 @@
+#!/bin/bash -eu
 GOOS=linux GOARCH=amd64 go build -o main main.go #ビルド
 zip main.zip main #zipに固める
 
