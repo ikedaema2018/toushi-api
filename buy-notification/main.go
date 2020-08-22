@@ -2,7 +2,8 @@
 package main
 
 import (
-	"github.com/aws/aws-lambda-go/lambda"
+        "github.com/aws/aws-lambda-go/lambda"
+        "net/http"
 )
 
 func hello() (string, error) {
